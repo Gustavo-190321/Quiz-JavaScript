@@ -1,0 +1,58 @@
+body,h3{
+    font-family: Arial;
+    color: black;
+    background-color: powderblue;
+    
+    
+}
+img{
+    padding: 10px;
+    width: 150px;
+
+}
+input{
+    background-color: blue;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: black;
+}
+#lock[type = submit]:hover{
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: black;
+}
+.radio{
+    display: grid,-moz-inline-grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+    
+}
+#lock{
+    display: block;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+}
+
+label{
+    display: block;
+    padding: 10px 20px;
+}
+
+.wrong{
+    background-color: tomato;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.right{
+    background-color: springgreen;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: black;
+}

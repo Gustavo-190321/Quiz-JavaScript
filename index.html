@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <title>QUIZ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <img src="quiz.png" alt="QUIZ">
+    <form>
+        <div class="pergunta">
+            <h3>1) Qual ano foi proclamada a república do Brasil?</h3>
+                <label> 
+                    <input name="resposta1" type="radio" value="1822">
+                        a)1822
+                </label>
+                <label>
+                    <input name="resposta1" type="radio" value="1768"/>
+                        b)1768
+                </label>
+                <label>
+                    <input name="resposta1" type="radio" value="1889"/>
+                        c)1889
+                </label>
+                <label>
+                    <input name="resposta1" type="radio" value="1500"/>
+                        d)1500
+                </label>
+        </div>
+
+        <div class ="pergunta">
+            <h3>2) Quais destes é um satélite natural?</h3>
+                <label>
+                    <input name="resposta2" type="radio" value="Marte"/>
+                        a) Marte
+                </label>
+                <label>
+                    <input name="resposta2" type="radio" value="Lua"/>
+                        b)Lua
+                </label>
+                <label>
+                    <input name="resposta2" type="radio" value="Terra"/>
+                        c)Terra
+                </label>
+                <label>
+                    <input name="resposta2" type="radio" value="Sol"/>
+                        d)Sol
+                </label>
+        </div>
+
+        <div class="pergunta">
+            <h3>3) Quais destas doenças é causada por bactérias?</h3>
+    
+            <label>
+                <input name="resposta3" type="radio" value="Tuberculose"/>
+                    a)Tuberculose
+            </label>
+            <label>
+                <input name="resposta3" type="radio" value="Variola"/>
+                    b)Variola
+            </label>
+            <label>
+                <input name="resposta3" type="radio" value="Febre Amarela"/>
+                    c)Febre amarela
+            </label>
+            <label>
+                <input name="resposta3" type="radio" value="HIV"/>
+                    d)HIV
+            </label>
+        </div>
+    </form>
+    <label>
+    <input id = "lock" type="submit" onclick="confere()"></input>
+    </label>
+</body>
+<script src="code.js"></script>
+</html>
